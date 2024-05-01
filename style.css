@@ -1,0 +1,141 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0%;
+}
+
+.container{
+    width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blank{
+    height: 5rem;
+    width: 90rem;
+    /* background-color: rgba(97, 108, 255, 0.39); */
+
+}
+
+.logo{
+    text-align: center;  
+    width: 90rem;  
+    /* background-color: rgba(23, 39, 255, 0.39); */
+    min-height: 8rem;
+}
+
+main{
+    text-align: center;
+    /* background-color: rgb(139, 91, 27); */
+    
+}
+
+main h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 5rem;
+    margin: 0%;
+    background: -webkit-linear-gradient(-20deg, #7DF06D,#00D78E,#00B4AE,#3E00FF, #EF3C8C, #EE6247,#F23D80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin: 0%;
+    padding: 1.5rem;
+    /* background-color: antiquewhite; */
+}
+
+main img{
+    margin: 2rem;
+}
+
+.txt p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+section{
+    display: flex;
+    width: 90rem;
+
+}
+
+.left{
+    flex: 1;
+}
+
+.leftsec{
+    flex: 2;
+    padding: 1.5rem;
+}
+
+.para1 h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.125rem;
+    margin: 0%;
+    margin-top: 2rem;
+}
+
+.para1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    margin: 0%;
+    margin-top: 0.5rem;
+    /* background-color: antiquewhite; */
+}
+
+.right{
+    flex: 1;
+}
+.rightsec{
+    flex: 1;
+    /* background-color: #ff004c; */
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.leftblank{
+    flex: 1;
+}
+
+.leftimg{
+    flex: 4;
+    display: flex;
+}
+
+.leftimg img{
+    width: 24%;
+    padding: 2rem;
+    flex: 1;
+}
+
+.leftimg img1{
+    flex: 2;
+}
+
+.img1 h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.125rem;
+    margin: 0%;
+    margin-top: 2rem;
+}
+
+.img1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    margin: 0%;
+    margin-top: 0.5rem;
+    /* background-color: antiquewhite; */
+}
+
+.rightimg{
+    flex: ;
+}
+.rightblank{
+    flex: 1;
+    /* background-color: #ff004c; */
+}
