@@ -14,7 +14,27 @@ body{
     width: 70rem;
     margin-left: auto;
     margin-right: auto;
-    margin: 200px auto;
+    padding: 200px 0px;
+}
+
+.bspace .cont{
+    width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0px;
+}
+
+.projects .cont{
+    width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0px;
+}
+
+.cont-nospace{
+    width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .blank{
@@ -36,11 +56,42 @@ p{
     line-height: 24px;
 }
 
+.projects {
+    background: -webkit-linear-gradient(-20deg, #4B9FFF,#00C399,#FFD157,#FC7366);
+} 
+
+.projects .cont{
+    width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1{
     font-family: "Syne", sans-serif;
-    line-height: 5rem;
     font-weight: 700;
     font-size: 4rem;
+    margin: 0%;
+    color: #fff !important;
+}   
+
+
+.hero h1{
+    font-family: "Syne", sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    margin: 0%;
+    background: -webkit-linear-gradient(-20deg, #4B9FFF,#00C399,#FFD157,#FC7366);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+h2{
+    font-family: "Syne", sans-serif;
+
+    font-weight: 700;
+    font-size: 3.5rem;
     margin: 0%;
     background: -webkit-linear-gradient(-20deg, #4B9FFF,#00C399,#FFD157,#FC7366);
     -webkit-background-clip: text;
@@ -59,7 +110,6 @@ h3{
 
 .hero h3{
     color: #a4a7aa;
-
 }
 
 /* .hero img{
@@ -146,19 +196,39 @@ h3{
     width: 20px;
 }
 
-.work-grid {
+.about-grid {
     display: flex;
     justify-content: space-between;
     margin-top: 48px;
-    gap: 64px;
+}
+
+.work-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.work-grid .work-frame{
+    overflow: hidden;
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
 
 .work-frame img{
     width: 100%;
+    transition: transform .3s ease;
+}
+
+.work-frame:hover img{
+    transform: scale(1.5) rotate(15deg);
+    overflow: hidden;
 }
 
 .work-frame p{
     color: #a4a7aa;
+}
+
+.projects .work-frame p{
+    color: #fff;
 }
 
 .service-frame{
@@ -173,12 +243,42 @@ h3{
     border: #31343a 1px solid;
 }
 
+.about-frame{
+    width: 100%;
+    padding: 32px;
+    border: #31343a 1px solid;
+}
+
+.contact-frame{
+    width: 100%;
+    padding: 32px;
+    border: #31343a 1px solid;
+}
+
 .service-frame p{
     color: #a4a7aa;
 }
 
 .service-frame ul{
     list-style-position: outside;
+}
+
+.feature-grid .contact-frame{
+    display: flex;
+    border: 0px;
+    justify-content: start;
+    align-self: center;
+    gap: 24px;
+}
+
+.feature-grid p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.feature-grid h2{
+    color: #fff;
+    margin-top: 0px;
 }
 
 .footer {
