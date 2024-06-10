@@ -78,6 +78,13 @@ p {
     /* Smooth transition on hover */
 
 }
+
+/* logo design */
+
+.logo{
+    padding: 32px 0px;
+    /* margin-left: auto; */
+}
   
 /* hero section */
 .hero {
